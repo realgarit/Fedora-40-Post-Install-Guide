@@ -38,6 +38,7 @@ sudo fwupdmgr get-updates # Fetches list of available updates.
 sudo fwupdmgr update
 ```
 ## Flatpak
+* If you already enabled third party repositories during the initial setup window, skip this step
 * Fedora doesn't include all non-free flatpaks by default. The command below enables access to all the flathub flatpaks. Particularly useful for users of Fedora KDE and other spins since they do not get the "Enable Third Party Repositories" option on initial boot.
 * `flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
 
