@@ -53,6 +53,7 @@ sudo fwupdmgr update
 * `sudo dnf install xorg-x11-drv-nvidia-cuda`
 * Wait for atleast 5 mins before rebooting, to let the kermel module get built.
 * `modinfo -F version nvidia` #Check if the kernel module is built.
+* Check with `nvidia-smi` to ensure that the GPU is functioning properly.
 * Reboot
 
 ## ~~Battery Life (Deprecated)~~
